@@ -1,0 +1,117 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #1d0f0f;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    margin:0%;
+    background-color: hsl(285, 10%, 92%);
+}
+h1{
+    font-size: 2rem;
+    margin-bottom: 1.8rem;
+    color: lab(31.33% 73.53 -99.87);
+    text-align: center;
+    font-weight: 700;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    background-color: hsl(60, 9%, 91%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 300px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    translaiton: all 0.3s ease;
+    background-color: hsl(60, 9%, 91%);
+    outline: none;
+}
+input[type="text"]:focus{
+    border-color: hsl(60, 9%, 91%);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+button{
+    background-color: hsl(234, 48%, 52%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 300px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+button:hover{
+    background-color: hsl(234, 66%, 76%);
+    transform: translateY(-2px);
+}
+button:active{
+    background-color: hsl(234, 66%, 76%);
+    transform: translateY(0);
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+li{
+    background-color: hsl(60, 9%, 91%);
+    padding: 10px;
+    border-radius: 300px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li button{
+    background-color: hsl(234, 66%, 76%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 300px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: all 0.3s ease;
+}
+li button:hover{
+    background-color: hsl(234, 66%, 76%);
+    transform: translateY(-2px);
+}
+li .remove-btn{
+    background-color: hsl(234, 66%, 76%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 300px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: all 0.3s ease;
+}   
+li .remove-btn:hover{
+    background-color: hwb(0 7% 10%);
+    transform: translateY(-2px);
+}
+.completed{
+    text-decoration: line-through;
+    color: #6c757d;ss
+}
